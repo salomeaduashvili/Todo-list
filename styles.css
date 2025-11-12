@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Story+Script&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100%;
+  background-image: url(./images/1801.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Story script";
+  min-width: 100vw;
+  height: auto;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #6600ff;
+  border-radius: 20px;
+  margin-top: 30.5rem;
+  margin-right: 2.5rem;
+  width: 113rem;
+  min-height: 58rem;
+  height: auto;
+  position: relative;
+}
+
+#img-div {
+  border-radius: 20px;
+  background-color: #7777de;
+  margin: 3rem;
+  border: 2px solid #0000ff;
+  position: absolute;
+  left: 3%;
+  top: 1%;
+}
+
+#list-img {
+  width: 50rem;
+  height: 50rem;
+  object-fit: contain;
+  padding: 1rem 3rem;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem 5rem;
+  margin-left: 50rem;
+  margin-top: 1rem;
+  max-width: max-content;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 6.2rem;
+}
+
+#input {
+  color: #1d5dff;
+  padding: 0.3rem;
+  font-size: 1.8rem;
+  border: 2px solid rgb(33, 85, 255);
+  border-radius: 10px;
+}
+
+#input::placeholder {
+  font-family: inherit;
+  color: #5c5cd3;
+  text-align: center;
+  font-family: "Story script";
+  letter-spacing: 1px;
+  font-size: 1.8rem;
+}
+
+#add-btn {
+  font-family: inherit;
+  cursor: pointer;
+  padding: 0.4rem 1rem 0.3rem 1rem;
+  font-size: 1.5rem;
+  position: absolute;
+  left: 86%;
+  bottom: 74.1%;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #5c5cd3;
+  border-radius: 10px;
+  border: 2px solid rgb(33, 85, 255);
+  transition: 0.3s ease;
+}
+
+li button:hover,
+#add-btn:hover {
+  background-color: rgb(33, 85, 255);
+  color: azure;
+}
+
+li button:active,
+#add-btn:active {
+  color: #000;
+}
+
+#list-div {
+  display: flex;
+  flex-direction: column;
+  align-items: inherit;
+  justify-content: center;
+  letter-spacing: 1px;
+  font-size: 2rem;
+  font-family: inherit;
+  color: azure;
+  margin-top: 1rem;
+  margin-left: 3.8rem;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 26rem;
+  gap: 1rem;
+  padding-top: 0.5rem;
+  word-break: break-word;
+}
+
+li button {
+  font-family: inherit;
+  cursor: pointer;
+  width: 2.8rem;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #5c5cd3;
+  border-radius: 10px;
+  border: 2px solid rgb(33, 85, 255);
+  transition: 0.2s ease;
+  cursor: pointer;
+}
